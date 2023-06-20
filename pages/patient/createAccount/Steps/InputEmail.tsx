@@ -16,7 +16,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import GoogleIcon from "../../../../public/GoogleLogo.svg";
-import Logo from "../../../../public/icon.svg";
+import Logo from "../../../../public/icon.png";
 import { useForm, Controller } from "react-hook-form";
 import { useFormik, Formik, Field, ErrorMessage, Form } from "formik";
 import * as yup from "yup";
@@ -248,7 +248,7 @@ export default function InputEmail({ handlerClick, goBack }: any) {
                 <a
                   className={styles.linkTerms}
                   target={"_blank"}
-                  href="https://www.hausey.com.br/politicas-de-privacidade.pdf"
+                  href="https://www.reforcemed.com.br/demo/politicas-de-privacidade.pdf"
                 >
                   Políticas de Privacidade
                 </a>{" "}
@@ -256,7 +256,7 @@ export default function InputEmail({ handlerClick, goBack }: any) {
                 <a
                   className={styles.linkTerms}
                   target={"_blank"}
-                  href="https://www.hausey.com.br/termos-de-uso.pdf"
+                  href="https://www.reforcemed.com.br/demo/termos-de-uso.pdf"
                 >
                   Termos de Uso.
                 </a>
